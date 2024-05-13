@@ -44,12 +44,17 @@ p {
 
 header>div {
     text-align: center;
-    margin: 20px 10px;
+    /* margin: 20px 10px; */
     background-image: url("../images/home-img.jpeg");
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
+    padding: 200px 10px;
+    background-size: cover;
 }
 
+h1 {
+    text-align: center;
+}
 
 a {
     color: white;
@@ -58,30 +63,38 @@ a {
     background-color: var(--main-color);
     margin: auto;
 }
-section img{
+
+section img {
     width: 100%;
     height: 300px;
 }
-section:nth-child(1){
+
+section:nth-child(1) {
     text-align: center;
     margin: 20px 10px;
-    
+    border: solid red 5px;
+
 }
-h2{
+
+h2 {
     color: white;
 }
-.alignleft{
+
+.alignleft {
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 10px;
 }
-/* section:nth-child(3) */ .section2{
+
+/* section:nth-child(3) */
+.section2 {
     margin: 20px 10px;
-   /*  border: solid red 5px; */
+    /*  border: solid red 5px; */
 }
-.ourmenuitem{
+
+.ourmenuitem {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -89,25 +102,51 @@ h2{
     justify-content: space-around;
     border: var(--border);
     margin: 5px 0;
+    padding: 10px;
+    text-align: center;
 }
-.menupic{
+
+.menupic {
     width: 30px;
     height: 30px;
 }
-.middleicons{
+
+.middleicons {
     display: flex;
     gap: 10px;
 }
-.middlieiconsin{
+
+.middlieiconsin {
     border: var(--border);
 }
-.bxs-star, .bxs-star-half{
+
+.bxs-star,
+.bxs-star-half {
     color: var(--main-color);
-      
+
 }
-.midimg{
+
+.midimg {
     width: 70px;
     height: 120px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.fas {
+    color: var(--main-color);
+}
+
+.bott {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-around;
+    border: var(--border);
+    margin: 5px 0;
+    padding: 10px;
 }
 
 
